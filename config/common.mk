@@ -43,12 +43,3 @@ PRODUCT_COPY_FILES += \
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-# Additional packages
--include vendor/omni/config/packages.mk
-
-# Versioning
--include vendor/omni/config/version.mk
-
-# Add our overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/common
